@@ -360,5 +360,54 @@ label, input, textarea{
     background-color: green;
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        background-color: rgb(170, 170, 214);
+        border-bottom:solid rgb(237,28,36);
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 10px;
+        position: sticky;
+        top: 0px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+    
+    
+    .navbar{
+        width: 100%;
+        justify-content: space-evenly;   
+    }
+    
+    
+    .navbar ul{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 52px;
+        
+    }
+    
+    .navbar ul li{
+        list-style-type: none;
+        display: inline;
+        margin-right:10px;
+        text-decoration: none;
+    }
+    
+    nav a{
+        padding: 1rem;
+        text-decoration: none;
+        color: rgb(46,48,147);
+        text-shadow: 4px 4px 6px rgb(34, 35, 110);
+    }
+    
+    nav a:hover{
+        color:rgb(237,28,36) ;
+        transition: color 0.3s ease;
+
+    }
+}
 
 
